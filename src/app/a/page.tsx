@@ -4,16 +4,15 @@ export default function Home() {
   return (
     <main>
       <h1>
-        Top page
+        Page A
       </h1>
       <ul>
         <li>
-          <Link href="/a">page-a</Link>
-        </li>
-        <li>
-          <Link href="/a">page-b</Link>
+          <Link href="/b">page-b</Link>
         </li>
       </ul>
     </main>
   )
 }
+
+export const dynamic = 'force-dynamic';
